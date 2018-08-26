@@ -5,3 +5,4 @@ readonly FULLPATH=$IMGPATH$IMGNAME
 scrot "$@" "$FULLPATH"
 readonly OUTPUT="$(fb "$FULLPATH")"
 notify-send "Screenshot uploaded" "$OUTPUT"
+
